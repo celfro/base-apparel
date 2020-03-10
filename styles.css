@@ -4,10 +4,25 @@
 }
 
 body {
-  background-color: hsl(0, 93%, 68%);
-  font-family: 'Josefin Sans', sans-serif;
+  background-color: #000;
 }
 
-header {
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #FBF2EF;
+    font-family: 'Josefin Sans', sans-serif;
+  }
 
+  header {
+
+  }
+
+  header img {
+    width: 110px;
+    margin: 25px 0 25px 25px;
+  }
+
+  img {
+    width: 100%;
+  }
 }
