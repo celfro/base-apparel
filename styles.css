@@ -60,4 +60,39 @@ body {
     word-spacing: 4px;
     line-height: 1.6;
   }
+
+  .email-input {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    position: relative;
+    background-color: #000;
+  }
+
+  input[type=text] {
+    background-color: #FBF2EF;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 50px;
+    width: 70%;
+    padding: 15px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+  }
+
+  input[type=image] {
+    background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 50px;
+    width: 10px;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 60px;
+  }
 }
